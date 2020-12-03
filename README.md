@@ -22,6 +22,30 @@ If you feel this book is for you, get your [copy](https://www.amazon.com/dp/1800
 <a href="https://www.packtpub.com/?utm_source=github&utm_medium=banner&utm_campaign=GitHubBanner"><img src="https://raw.githubusercontent.com/PacktPublishing/GitHub/master/GitHub.png" 
 alt="https://www.packtpub.com/" border="5" /></a>
 
+## Errata
+
+* Page 17: The following code block present on this page is incorrect:
+```
+for(Account acc : Trigger.new) {
+  Integration_Settings__c setting = Integration_Settings__c. getInstance();
+  User apiUser = [SELECT Id FROM User WHERE Username = setting.Api_Username__c];
+  if(acc.OwnerId = apiuser.Id) {
+    break;
+  }
+  //do something otherwise
+}
+```
+The correct code block is as follows:
+```
+Integration_Settings__c setting = Integration_Settings__c. getInstance();
+User apiUser = [SELECT Id FROM User WHERE Username = setting.Api_Username__c];
+for(Account acc : Trigger.new) {
+  if(acc.OwnerId = apiuser.Id) {
+    break;
+  }
+//do something otherwise
+}
+```
 ## Instructions and Navigations
 All of the code is organized into folders. For example, Chapter02.
 
