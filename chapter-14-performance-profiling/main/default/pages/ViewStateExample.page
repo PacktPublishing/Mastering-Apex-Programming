@@ -1,0 +1,17 @@
+<!--
+  @description       : 
+  @author            : Paul Battisson
+  @group             : 
+  @last modified on  : 09-19-2020
+  @last modified by  : Paul Battisson
+  Modifications Log 
+  Ver   Date         Author           Modification
+  1.0   09-19-2020   Paul Battisson   Initial Version
+-->
+<apex:page controller="ViewStateController">
+    <apex:form>
+        <p>{!nontransientString}</p>
+        <p>{!transientString}</p>
+        <apex:commandButton value="Refresh" action="{!refresh}" />
+    </apex:form>
+</apex:page>
