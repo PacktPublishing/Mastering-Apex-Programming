@@ -77,3 +77,7 @@ We also provide a PDF file that has color images of the screenshots/diagrams use
 ## Get to Know the Author
 **Paul Battisson**
 is a seven-time Salesforce MVP and has been a speaker at numerous global Salesforce events, including Dreamforce, London’s Calling, and India Dreamin. He has been working with the Salesforce platform for over 11 years in a mix of both product development and consulting roles. Paul now helps lead a UK-based consulting partner, as well as blogs, has a YouTube channel, and leads a Salesforce Developer Group.
+### Download a free PDF
+
+ <i>If you have already purchased a print or Kindle version of this book, you can get a DRM-free PDF version at no cost.<br>Simply click on the link to claim your free PDF.</i>
+<p align="center"> <a href="https://packt.link/free-ebook/9781800200920">https://packt.link/free-ebook/9781800200920 </a> </p>
